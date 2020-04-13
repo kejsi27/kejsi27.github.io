@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>eBanking</title>
+
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <link href="css/eBanking.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+    html,body{
+      height: 100%;
+      width:100%;
+      overflow:hidden;
+    }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">eBanking</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">ePersonal <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+          <li><a href="Personal Online Banking.html">Personal Online Banking</a>
+          </li>
+          <li><a href="Personal Bill Pay.html">Personal Bill Pay</a>
+          </li>
+          <li><a href="Personal Mobile Banking.html">Personal Mobile Banking</a>
+          </li>
+          <li><a href="Personal Mobile Deposit.html">Personal Mobile Deposit</a>
+          </li>
+          <li><a href="Personal eStatements.html"> Personal eStatements</a>
+          </li>
+      </ul>
+  </li>
+  <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">eBusiness <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+          <li><a href="Business Online Banking.html">Business Online Banking </a>
+          </li>
+          <li><a href="Business Bill Pay.html">Business Bill Pay</a>
+          </li>
+          <li><a href="Business Mobile Banking.html">Business Mobile Banking</a>
+          </li>
+          <li><a href="Business Mobile Deposit.html">Business Mobile Deposit</a>
+          </li>
+          <li><a href="Business eStatements.html">Business eStatements</a>
+          </li>
+      </ul>
+  </li>
+  <li><a href="signup.html">SignUp</a> </li>
+  <li><a href="signin.html">SignIn</a></li>
+  <li><a href="Contact.html">Contact</a>
+  </li>
+</ul>
+</div>
+</div>
+</nav>
+<section id="title" class="emerald">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6">
+                  <h1><b><font color="coral">Contact Us</h1></b></font>
+                  <p>For more information contact us!</p>
+              </div>
+              <div class="col-sm-6">
+                  <ul class="breadcrumb pull-right">
+                      <li><a href="index.html">Home</a></li>
+                      <li class="active">Contact Us</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="contact-page" class="container">
+      <div class="row">
+          <div class="col-sm-8">
+              <h4><i>Contact Form</h4></i>
+              <div class="status alert alert-success" style="display: none"></div>
+              <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
+                  <div class="row">
+                      <div class="col-sm-5">
+                          <div class="form-group">
+                              <input type="text" class="form-control" required="required" placeholder="First Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" required="required" placeholder="Last Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" required="required" placeholder="Email address">
+                          </div>
+                          <div class="form-group">
+                              <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                          </div>
+                      </div>
+                      <div class="col-sm-7">
+                          <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <div class="col-sm-4">
+              <h4><font color="green">Our Location</h4></font>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47934.995927267104!2d19.79527673950492!3d41.331977943276215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350310470fac5db%3A0x40092af10653720!2sTirana%2C+Albania!5e0!3m2!1sen!2s!4v1560512909453!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+      </div>
+  </section>
+  <div class="container">
+
+      <hr>
+
+      <footer>
+          <div class="row">
+              <div class="col-lg-12">
+                <p>Copyright &copy; Company 2019</p>
+              </div>
+          </div>
+      </footer>
+
+  </div>
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/eBanking.js"></script>
+
+</body>
+
+</html>
